@@ -161,8 +161,8 @@ def bacon_shor():
 
     def build():
 
-        double_encoding()
-        #prepare_GHZ()
+        #double_encoding()
+        prepare_GHZ()
 
         count = 0
         for n in range(0,9,3):
