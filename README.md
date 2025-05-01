@@ -19,7 +19,7 @@ The code works as follows:
 
 
 ## Important Notes
-* Direct error correction is performed here for the sake of demonstration. It is recognized that in practice, one only performs error correction modulo subsystem structure, meaning our correction may act nontrivially on the gauge space, so long as the logical encoded codespace is restored (1).
+* Direct error correction is performed here for the sake of demonstration. It is recognized that in practice, one only performs error correction modulo subsystem structure, meaning our correction may act nontrivially on the gauge space, so long as the logically encoded subspace is restored (1).
 * It is also understood that a GHZ state is not a natural state to prepare for this system, however it makes for the most intuitive interpretation of results.
 * It should be noted, one can combine weight-2 gauge measurements to construct the weight-6 stabilizers, effectively making a stailizer code which does not measure stabilizers directly. If one wants to go "all the way", simply replace the ancilla to correspond to a stabilizer each, instead of a gauge group generator.
 
