@@ -3,8 +3,14 @@ from qiskit.circuit import IfElseOp
 from qiskit_aer import AerSimulator as Aer
 from qiskit_aer.noise import NoiseModel, pauli_error
 import numpy as np
+'''
+Derek Wingard, 04/2025
 
+Evaluates a Bacon-Shor[[9,1,3]] subsystem code and performs majority vote decoding in post processing.
 
+import whole file to run
+
+'''
 def bacon_shor():
 
 
