@@ -1,3 +1,0 @@
-numpy==2.2.5
-qiskit==2.0.0
-qiskit_aer==0.17.0
