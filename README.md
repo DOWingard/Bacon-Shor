@@ -13,7 +13,7 @@ The code works as follows:
 
 * Prepares a GHZ state for simplicity of measurement, but the standard routine given in (2) is also available in the code, which embeds a 3 qubit bit-flip redundancy code into a 3 qubit phase-flip redundancy code
 * Performs syndrome measurements in period-2 measurement cycle of non-commuting groups of weight-2 gauges, $$X_{i}X_{i+3}$$-type and $$Z_{i}Z_{i+1}$$-type. Since these are gauge measurements which do not disturb the encoded information, we can simply switch between both gauge fixings and extract all the same information as the full weight-6 stabilizers.
-* Direct error correction using pauli gates may be applied using syndrome measurements from pairs of gauge group generators and the correspoding 
+* Direct error correction using pauli gates may be applied using syndrome measurements from pairs of gauge group generators 
 * Circuit is evaluated with an artificial noise model correponding to a .3% change of error at each gate, being either X or Z type errors.
 * After curcuit results are taken, a majority voting is performed where, given we start with a GHZ state, we should get results like measuring a single qubit in superposition.
 
